@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-
+import CounterHooks from './Component/counterHooks'
+import CounterHooks2 from './Component/CounterHook2'
+import Form from './Component/UseStateWithObj'
+import UseStateArray from './Component/UseStateWithArray'
+import CLC from './Component/useEffect/CLC'
+import AXiosFetch from './Component/axios/Fetch'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+       <center> hello Hooks</center>     
+        {/* < CounterHooks  /> */}
+        {/* < CounterHooks2  /> */}
+        {/* <Form /> use use state with Object */}
+        {/* <UseStateArray /> use useState with array and array of object  */}
+        {/* <CLC /> component life cycle by use effect */}
+        <AXiosFetch />
     </div>
   );
 }
 
 export default App;
+ 
